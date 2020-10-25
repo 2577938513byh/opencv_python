@@ -43,7 +43,7 @@ cv.createTrackbar('S_low', 'img', 0, 255, nothing)
 cv.createTrackbar('S_up', 'img', 0, 255, nothing)
 cv.createTrackbar('V_low', 'img', 0, 255, nothing)
 cv.createTrackbar('V_up', 'img', 0, 255, nothing)
-
+print("helle world")
 
 while True:
     H_low = cv.getTrackbarPos('H_low', 'img')
